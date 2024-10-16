@@ -1,0 +1,9 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+HieuDT1_HelloWorld.access_HieuDT1_HelloWorld_course_user,Course User,HieuDT1_HelloWorld.model_course_odoo,course_group_user,1,1,1,0
+
+HieuDT1_HelloWorld.access_HieuDT1_HelloWorld_course_manager,Course Manager,HieuDT1_HelloWorld.model_course_odoo,course_group_manager,1,1,1,1
+
+HieuDT1_HelloWorld.access_HieuDT1_HelloWorld_lesson_user,Lesson User,HieuDT1_HelloWorld.model_lesson_odoo,lesson_group_user,1,1,1,0
+
+HieuDT1_HelloWorld.access_HieuDT1_HelloWorld_lesson_manager,Lesson Manager,HieuDT1_HelloWorld.model_lesson_odoo,lesson_group_manager,1,1,1,1

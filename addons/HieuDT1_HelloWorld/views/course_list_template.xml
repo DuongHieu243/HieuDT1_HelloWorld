@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="course_list_template" name="Danh sách khóa học">
+        <div id="wrap" class="container">
+            <h1>Các khóa học</h1>
+            <t t-foreach="courses" t-as="course">
+                <div class="row">
+
+                    <t t-set="nameOfCourse" t-value="course.name"/>
+                    <span t-out="nameOfCourse"/>
+,
+                    <t t-set="is_active" t-value="course.is_active"/>
+                    <span t-out="is_active" />
+
+                </div>
+            </t>
+        </div>
+    </template>
+</odoo>
